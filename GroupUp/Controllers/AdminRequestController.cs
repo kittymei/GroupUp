@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GroupUp.Controllers
 {
-    public class AdminController : Controller
+    public class AdminRequestController : Controller
     {
         private readonly GroupUpContext _context;
 
-        public AdminController(GroupUpContext context)
+        public AdminRequestController(GroupUpContext context)
         {
             _context = context;
         }

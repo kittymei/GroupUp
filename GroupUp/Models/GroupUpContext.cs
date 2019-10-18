@@ -21,6 +21,7 @@ namespace GroupUp.Models
         public virtual DbSet<Employees> Employees { get; set; }
         public virtual DbSet<Request> Request { get; set; }
         public virtual DbSet<Users> Users { get; set; }
+       // public virtual DbSet<ContactUs> ContactUs { get; set; } lissted at bottom
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace GroupUp.Models
 {
     public partial class Request
     {
         public int Id { get; set; }
+
+        [Required(ErrorMessage = "Please enter a subect")]
         public string Subject { get; set; }
         public string Topic { get; set; }
         public string SchoolType { get; set; }
