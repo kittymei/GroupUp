@@ -30,6 +30,12 @@ namespace GroupUp.Controllers
             return View();
         }
 
+        public ViewResult ContactUsForm()
+        {
+
+            return View();
+        }
+
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

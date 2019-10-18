@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using GroupUp.Models;
 
 namespace GroupUp.Models
 {
@@ -183,5 +184,7 @@ namespace GroupUp.Models
                     .IsUnicode(false);
             });
         }
+
+        public DbSet<GroupUp.Models.ContactUs> ContactUs { get; set; }
     }
 }
