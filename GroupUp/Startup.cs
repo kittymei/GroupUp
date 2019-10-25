@@ -42,6 +42,7 @@ namespace GroupUp
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                
             }
             else
             {
