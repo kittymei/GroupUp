@@ -28,7 +28,7 @@ namespace GroupUp.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-A9HP6BB;Database=GroupUp;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=tcp:groupupserver.database.windows.net,1433;Initial Catalog=GroupUpDatabase;Persist Security Info=False;User ID=groupupadmin;Password=@Cps41747951;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
 

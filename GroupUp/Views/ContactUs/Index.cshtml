@@ -1,7 +1,7 @@
 ﻿@model GroupUp.Models.ContactUs
 
 @{
-    ViewData["Title"] = "Contact Us";
+    ViewData["Title"] = "Contact Us - ";
 }
 
 <h1>Contact Us</h1>
@@ -10,7 +10,7 @@
 
 
 <div class="form-group">
-    <img src="~/img/Study.jpg" style="float:right" />
+    
 </div>
 
 <div class="row">
@@ -39,6 +39,7 @@
                 <input asp-for="Message" class="form-control" />
                 <span asp-validation-for="Message" class="text-danger"></span>
             </div>
+            @*<img src="~/img/Study.jpg" class="embed-responsive" />*@
 
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
