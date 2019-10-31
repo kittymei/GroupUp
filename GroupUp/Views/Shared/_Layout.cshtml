@@ -4,9 +4,9 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @*<meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />*@
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />*@
 
-    <title>@ViewData["Title"] GroupUp</title>
+    <title>@ViewData["Title"] - GroupUp</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -26,7 +26,7 @@
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GroupUp</a>
                 <a class="nav-link text-dark" asp-area="" asp-controller="Requests" asp-action="Create">New Group</a>
-                <a class="nav-link text-dark" asp-area="" asp-controller="Requests" asp-action="Index">Available Groups</a>
+                <a class="nav-link text-dark" asp-area="" asp-controller="requests" asp-action="Index">Available Groups</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -39,13 +39,13 @@
                     <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About</a>
                 </div>
                 <div allign="right">
-                    <a class="nav-link text-dark" asp-area="" asp-controller="ContactUs" asp-action="Index">Contact</a>
+                    <a class="nav-link text-dark" asp-area="" asp-controller="ContactUs"asp-action="Index">Contact</a>
                 </div>
-                @*<div allign="right">
+                <div allign="right">
                     <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
-                </div>*@
+                </div>
             </div>
-        </nav>
+</nav>
     </header>
     <div class="container">
         <partial name="_CookieConsentPartial" />
@@ -56,7 +56,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2019 - GroupUp
+            &copy; 2019 - GroupUp 
         </div>
     </footer>
 
