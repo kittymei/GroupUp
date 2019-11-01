@@ -4,14 +4,15 @@ Welcome to my Microsoft Software & System Academy (MSSA) project. Stay tuned for
 # Table of Contents
 1. [GroupUp](#groupUp)
 2. [Requirements](#requirements)
-3. [Solution Design](#solution-design)
+3. [Entrance Criteria](#entrance-criteria)
+4. [Exit Criteria](#exit-criteria
 4. [Data Design](#data-design)
 5. [UI Design](#ui-design)
-6. [Project Plan](#project-plan)
 7. [Project Demo](#project-demo)
 8. [Test Report](#test-report)
 9. [Database](#database)
 10. [Database Integration](#database-integration)
+11. [What we look like now](#what-we-look-like-now)
 11. [What is next](#what-is-next)
 
 
@@ -32,21 +33,23 @@ I am aiming to create a website where people can create get togethers for study 
 ## Requirements
 ![requirements](https://user-images.githubusercontent.com/52970331/65917342-fe6c9900-e38b-11e9-99c9-2bc1a2725797.PNG)
 
+## Entrance Criteria
+![Entrance Criteria](https://user-images.githubusercontent.com/52970331/68037151-5563d780-fc84-11e9-86f8-7fe0ee74d4f0.PNG)
 
-## Solution Design
+## Exit Criteria
+![Exit Criteria](https://user-images.githubusercontent.com/52970331/68037150-54cb4100-fc84-11e9-8af8-083d26c6b761.PNG)
 
 ## Data Design
 - Entity Relationship Diagram (ERD)
 ![ERD](https://user-images.githubusercontent.com/52970331/65811399-b4599c80-e16c-11e9-8035-550914ec8a3f.png)
 
-## UI Design
+## Wire Frame
 - WireFrame
 
 ![6](https://user-images.githubusercontent.com/52970331/65811831-0f8e8d80-e173-11e9-9823-d8eecfa622e8.png)
 ![7](https://user-images.githubusercontent.com/52970331/65811832-10272400-e173-11e9-89ce-1544a0b17d25.png)
 
 
-## Project Plan
 
 ## Project Demo
 - Prototype
@@ -67,13 +70,20 @@ I am aiming to create a website where people can create get togethers for study 
 ![data migration 2](https://user-images.githubusercontent.com/52970331/65846875-18f33380-e2f4-11e9-9080-d9a75e18d2a8.PNG)
 ![data](https://user-images.githubusercontent.com/52970331/66155917-7ed20a80-e5d5-11e9-89fb-b2e7d77a3b6c.PNG)
 ![data 2](https://user-images.githubusercontent.com/52970331/66155923-80033780-e5d5-11e9-8c13-453246f128a1.PNG)
-![request form](https://user-images.githubusercontent.com/52970331/66155928-82659180-e5d5-11e9-8b55-602894136990.PNG)
-![request form 2](https://user-images.githubusercontent.com/52970331/66155930-8396be80-e5d5-11e9-8a64-a5e61bea3b65.PNG)
 ![data 1](https://user-images.githubusercontent.com/52970331/66264519-b69aa700-e7bb-11e9-8f19-180d56c6a92a.PNG)
+
+## What we look like now
+![New 1](https://user-images.githubusercontent.com/52970331/68037396-dc18b480-fc84-11e9-9bb7-0a3840d6183d.PNG)
+![New 2](https://user-images.githubusercontent.com/52970331/68037399-dd49e180-fc84-11e9-850f-fdb219934425.PNG)
+![New 3](https://user-images.githubusercontent.com/52970331/68037402-dde27800-fc84-11e9-9114-b777e780822c.PNG)
+![New 4](https://user-images.githubusercontent.com/52970331/68037405-de7b0e80-fc84-11e9-9807-a33eeabcd65a.PNG)
+![New 5](https://user-images.githubusercontent.com/52970331/68037409-e044d200-fc84-11e9-93cd-c200d5163e26.PNG)
+
 
 ## What is next
 - Login page/ sign up page
-- Need to get users to create requests
-- Need to finish up completion screen
-- Create some test cases
-- Layout of website needs to improve
+- Join group button
+
+
+
+
