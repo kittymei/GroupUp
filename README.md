@@ -5,7 +5,7 @@ Welcome to my Microsoft Software & System Academy (MSSA) project. Stay tuned for
 1. [GroupUp](#groupUp)
 2. [Requirements](#requirements)
 3. [Entrance Criteria](#entrance-criteria)
-4. [Exit Criteria](#exit-criteria
+4. [Exit Criteria](#exit-criteria)
 4. [Data Design](#data-design)
 5. [UI Design](#ui-design)
 7. [Project Demo](#project-demo)
